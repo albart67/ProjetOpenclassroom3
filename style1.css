@@ -1,0 +1,63 @@
+header 
+{
+   
+    padding-top: 100px;
+    background-color: #579c87;
+    color: #fdcb46;
+    
+    height: 243px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.vertical-align {
+    
+    margin-top: 50%;
+}
+
+container
+{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    
+    border : 10px solid #000005;
+    min-height: 10vh;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+footer
+{
+    background-color: #579c87;
+    color: #fdcb46;
+    height: 140px;
+    font-size: 30px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #fdcb46;
+
+}
+
+img
+{
+    width :535px;
+}
+
+
+mentionLeg
+{
+    float: left;
+}
+
+contact
+{
+    float: right;
+}
