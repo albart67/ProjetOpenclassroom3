@@ -4,10 +4,9 @@ body {
   width: 100%;
   height: auto;
   grid-template-areas: "header"
-                       "container"
-                       "next-zone"
+                       "container"                       
                         "footer";
-    grid-template-rows: 10% auto 15% 10%;
+    grid-template-rows: 10% 1200px 10%;
     margin: 0px;
     padding: 0px;
 }
@@ -29,51 +28,45 @@ header
 
 container
 {
+    
     grid-area: container;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
-    margin: 50px;
     background-color: #ffffff;
     
     }
-
-.pic-menu{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    
-}
-
-img{
-    border-radius: 10px;
-    box-shadow: 2px 2px 12px #555;
-}
-
-
-.next-zone{
-    grid-area: next-zone;
-    display: flex;
-    margin: auto 0px;
-    justify-content: center;
-    background-color: #ffffff;
-    
-    }
-
-.next{
+h2{
+    text-align: center;
     font-family: sans-serif;
-    background-color: #579c87;
-    height: 120px;
-    width: 655px;
-    border-radius: 20px;
-    color: #fdcb46;
-    font-size: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
+.menu-page
+{
+    background-color: #fcdfdb;
+    width: 1185px;
+    display: block;
+    justify-content: center;
+    
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+.platAndPrice{
+    display: flex;
+    justify-content: space-between;
+}
+
+spam{
+    float: right;
+}
+
+p{
+    float: left;
+}
 
 footer
 {   
@@ -87,6 +80,8 @@ footer
     align-items: center;
     padding: 20px;
 }
+
+
 .contact{
     float: left
     }
@@ -105,9 +100,9 @@ a
 
 }
 
-img
-{
-    width :300px;
-}
+
+
+
+
 
 
